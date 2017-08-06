@@ -1,0 +1,25 @@
+{
+  "name": "learn-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/electron",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewharwood/learn-electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewharwood/learn-electron/issues"
+  },
+  "homepage": "https://github.com/matthewharwood/learn-electron#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
